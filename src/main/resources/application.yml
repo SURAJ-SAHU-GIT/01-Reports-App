@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: AshokIT@123
+    url: jdbc:mysql://localhost:3306/jrtp
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+    

@@ -25,7 +25,7 @@ public class DataLoader implements ApplicationRunner {
 		repo.deleteAll();
 		// Cash Plan Data
 		CitizenPlan c1 = new CitizenPlan();
-		c1.setCitizenName("John");
+		c1.setCitizenName("Rajesh");
 		c1.setGender("Male");
 		c1.setPlanName("Cash");
 		c1.setPlanStatus("Approved");
@@ -35,7 +35,7 @@ public class DataLoader implements ApplicationRunner {
 
 		
 		CitizenPlan c2 = new CitizenPlan();
-		c2.setCitizenName("Smith");
+		c2.setCitizenName("Vicky");
 		c2.setGender("Male");
 		c2.setPlanName("Cash");
 		c2.setPlanStatus("Denied");
@@ -43,7 +43,7 @@ public class DataLoader implements ApplicationRunner {
 
 	
 		CitizenPlan c3 = new CitizenPlan();
-		c3.setCitizenName("Cathy");
+		c3.setCitizenName("Neha");
 		c3.setGender("Fe-Male");
 		c3.setPlanName("Cash");
 		c3.setPlanStatus("Terminated");
@@ -55,7 +55,7 @@ public class DataLoader implements ApplicationRunner {
 
 		
 		CitizenPlan c4 = new CitizenPlan();
-		c4.setCitizenName("David");
+		c4.setCitizenName("Sam");
 		c4.setGender("Male");
 		c4.setPlanName("Food");
 		c4.setPlanStatus("Approved");
@@ -65,7 +65,7 @@ public class DataLoader implements ApplicationRunner {
 
 		
 		CitizenPlan c5 = new CitizenPlan();
-		c5.setCitizenName("Robert");
+		c5.setCitizenName("Mayank");
 		c5.setGender("Male");
 		c5.setPlanName("Food");
 		c5.setPlanStatus("Denied");
@@ -73,7 +73,7 @@ public class DataLoader implements ApplicationRunner {
 
 		
 		CitizenPlan c6 = new CitizenPlan();
-		c6.setCitizenName("Orlen");
+		c6.setCitizenName("Bindu");
 		c6.setGender("Fe-Male");
 		c6.setPlanName("Food");
 		c6.setPlanStatus("Terminated");
@@ -85,8 +85,8 @@ public class DataLoader implements ApplicationRunner {
 
 		//Food Plan Data
 		CitizenPlan c7 = new CitizenPlan();
-		c7.setCitizenName("Charles");
-		c7.setGender("Male");
+		c7.setCitizenName("Pooja");
+		c7.setGender("Fe-Male");
 		c7.setPlanName("Medical");
 		c7.setPlanStatus("Approved");
 		c7.setPlanStartDate(LocalDate.now());
@@ -95,7 +95,7 @@ public class DataLoader implements ApplicationRunner {
 
 		
 		CitizenPlan c8 = new CitizenPlan();
-		c8.setCitizenName("Buttler");
+		c8.setCitizenName("Swapnil");
 		c8.setGender("Male");
 		c8.setPlanName("Medical");
 		c8.setPlanStatus("Denied");
@@ -103,8 +103,8 @@ public class DataLoader implements ApplicationRunner {
 
 		
 		CitizenPlan c9 = new CitizenPlan();
-		c9.setCitizenName("Neel");
-		c9.setGender("Fe-Male");
+		c9.setCitizenName("Saket");
+		c9.setGender("Male");
 		c9.setPlanName("Medical");
 		c9.setPlanStatus("Terminated");
 		c9.setPlanStartDate(LocalDate.now().minusMonths(4));
@@ -113,7 +113,7 @@ public class DataLoader implements ApplicationRunner {
 		
 		//Employment Plan Data
 		CitizenPlan c10 = new CitizenPlan();
-		c10.setCitizenName("Steve");
+		c10.setCitizenName("Pankaj");
 		c10.setGender("Male");
 		c10.setPlanName("Employment");
 		c10.setPlanStatus("Approved");
@@ -123,7 +123,7 @@ public class DataLoader implements ApplicationRunner {
 		
 		
 		CitizenPlan c11 = new CitizenPlan();
-		c11.setCitizenName("Moris");
+		c11.setCitizenName("Lucky");
 		c11.setGender("Male");
 		c11.setPlanName("Employment");
 		c11.setPlanStatus("Denied");
@@ -131,7 +131,7 @@ public class DataLoader implements ApplicationRunner {
 		
 		
 		CitizenPlan c12 = new CitizenPlan();
-		c12.setCitizenName("Gibs");
+		c12.setCitizenName("Leena");
 		c12.setGender("Fe-Male");
 		c12.setPlanName("Employment");
 		c12.setPlanStatus("Terminated");

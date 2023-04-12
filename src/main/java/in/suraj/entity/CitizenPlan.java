@@ -2,19 +2,17 @@ package in.suraj.entity;
 
 import java.time.LocalDate;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Entity;
+import javax.persistence.GenerationType;
+import javax.persistence.Table;
 
 @Entity
 @Table(name="CITIZEN_PLANS_INFO")
 public class CitizenPlan {
 
 	
-		@Id
-		@GeneratedValue(strategy=GenerationType.IDENTITY)
+		@javax.persistence.Id
+		@javax.persistence.GeneratedValue(strategy=GenerationType.IDENTITY)
 		private Integer citizenId;
 		private String citizenName;
 		private String gender;
